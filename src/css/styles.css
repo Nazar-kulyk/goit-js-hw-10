@@ -11,7 +11,11 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
+.country-info-list {
+  display: flex;
+  align-items: center;
+  max-height: 100px;
+}
 #search-box {
   font: inherit;
   padding: 8px;
@@ -19,9 +23,19 @@ body {
   margin-bottom: 16px;
 }
 
+#search-box:focus,
+#search-box:hover {
+  outline: 2px solid blue;
+}
+
 .country-list {
   padding-left: 20px;
   list-style: none;
+}
+.country-list-img {
+  height: 15px;
+  width: auto;
+  padding-right: 10px;
 }
 
 .country-list__item {
