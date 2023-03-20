@@ -107,3 +107,7 @@ dist
 
 # TernJS port file
 .tern-port
+`
+# cahe
+.parcel-cacheç
+dist
